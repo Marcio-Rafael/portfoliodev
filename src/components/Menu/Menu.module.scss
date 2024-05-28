@@ -1,0 +1,64 @@
+@import "../../veriables.scss";
+
+.menu {
+  //used to work around editable div
+  color: transparent;
+  font-size: 0px;
+  //
+  cursor: pointer;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  padding: 10px;
+
+  > div:nth-child(1) {
+    top: 25%;
+  }
+  > div:nth-child(2) {
+    top: 50%;
+  }
+  > div:nth-child(3) {
+    bottom: 25%;
+  }
+  > div {
+    transition: transform 0.2s, top 0.2s, width 0.2s linear;
+    transfrom: tranlate(-50%, -50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 25px;
+    width: 80%;
+    height: 2px;
+    background-color: $black;
+  }
+}
+
+.isOpen {
+  outline: none;
+
+  caret-color: transparent;
+
+  > div:nth-child(2) {
+    width: 0;
+  }
+
+  > div:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg);
+  }
+  > div:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .menu {
+    display: none;
+  }
+  .child {
+    display: none;
+  }
+}

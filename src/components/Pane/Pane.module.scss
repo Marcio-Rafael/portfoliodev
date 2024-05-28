@@ -1,0 +1,128 @@
+@import "../../veriables.scss";
+
+@media screen and (min-width: 901px) {
+  .pane {
+    &:hover {
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      transition: .5s;
+    }
+  }
+}
+.pane {
+  overflow: hidden;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 30px;
+}
+
+.paneFront,
+.paneBack {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: inherit;
+
+  transition: all 0.5s ease;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.paneFront {
+  transition: background-size 3s ease;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border: 1px solid $light-black;
+  background: $white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.dark {
+  color: $white;
+  background-color: $light-black;
+  button {
+    color: $white;
+    &:hover {
+      color: $white;
+      background-color: $blue;
+    }
+  }
+}
+
+.light {
+  color: $light-black;
+  background-color: $white;
+  button {
+    color: $black;
+    &:hover {
+      color: $white;
+      background-color: $blue;
+    }
+  }
+}
+
+.paneBack {
+  overflow: hidden;
+  transform: translateY(-100%);
+  padding: 30px;
+
+  button {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: transparent;
+    border: 2px solid $blue;
+    border-radius: 30px;
+    transition: 0.2s ease;
+
+    font-size: 1.2rem;
+    padding: 10px 25px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.anime {
+  background-color: $white;
+  background-image: url("../../images/otakuchan.svg");
+}
+
+.css {
+  background-size: cover;
+  background-image: url("../../images/mia.PNG");
+}
+
+.kidafh {
+  background-size: cover;
+  background-image: url("../../images/suddath.jpg");
+}
+
+.welcome {
+  background-size: cover;
+  background-image: url("../../images/palm.jpg");
+  &::after {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: $white;
+    font-weight: 800;
+    content: "Welcome";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rbga($black, 0.3);
+  }
+}

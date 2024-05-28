@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d3ceaffe.chunk.css",
+    "main.js": "/static/js/main.2bc252dc.chunk.js",
+    "main.js.map": "/static/js/main.2bc252dc.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.8de180db.chunk.css": "/static/css/2.8de180db.chunk.css",
+    "static/js/2.e146856f.chunk.js": "/static/js/2.e146856f.chunk.js",
+    "static/js/2.e146856f.chunk.js.map": "/static/js/2.e146856f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.08e9eb545af1038484aec647e3cf49cd.js": "/precache-manifest.08e9eb545af1038484aec647e3cf49cd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.8de180db.chunk.css.map": "/static/css/2.8de180db.chunk.css.map",
+    "static/css/main.d3ceaffe.chunk.css.map": "/static/css/main.d3ceaffe.chunk.css.map",
+    "static/media/Rojas_Roman_CV.pdf": "/static/media/Rojas_Roman_CV.5a8dc6b0.pdf",
+    "static/media/anichart.PNG": "/static/media/anichart.6758b4ff.PNG",
+    "static/media/anilist.mp4": "/static/media/anilist.6620f479.mp4",
+    "static/media/anilist.webm": "/static/media/anilist.9c648db4.webm",
+    "static/media/animeCover.png": "/static/media/animeCover.069f09cb.png",
+    "static/media/claudio.jfif": "/static/media/claudio.b0ae37d2.jfif",
+    "static/media/close.svg": "/static/media/close.c4c396d3.svg",
+    "static/media/francisco.jfif": "/static/media/francisco.860c1969.jfif",
+    "static/media/heart.png": "/static/media/heart.6748499d.png",
+    "static/media/Pane.module.scss": "/static/media/palm.98162b3b.jpg"
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../veriables.scss";
+
+.sticky {
+  width: 100%;
+}
+
+.border {
+  box-shadow: inset 0px 11px 8px -15px $black;
+}
+
+.work__video {
+  display: block;
+  width: 80%;
+  height: auto;
+  z-index: 2;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  position: relative;
+}

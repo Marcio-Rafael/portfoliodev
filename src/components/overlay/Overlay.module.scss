@@ -1,0 +1,57 @@
+@import '../../veriables.scss';
+
+
+.overlay {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.white {
+  border: 1px solid $border-color;
+  background-color: $other-white;
+  top: -100px;
+  padding: 40px 60px;
+}
+.black {
+  border-radius: 15px;
+  top: -120px;
+  background-color: $light-black;
+  padding: 40px 30px;
+  margin-bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.first {
+  border-radius: 15px 15px 0 0;
+}
+
+.third {
+  border-radius: 0 0 15px 15px;
+}
+
+@media screen and (min-width: 992px) {
+  .overlay {
+    width: 110%;
+  }
+  .first {
+    z-index: 2;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+  }
+  
+  .third {
+    border-left: none;
+    left: -1%;
+    border-radius: 0 15px 15px 0;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .black {
+    button {
+      margin-top: 30px;
+    }
+  }
+}

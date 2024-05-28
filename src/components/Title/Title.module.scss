@@ -1,0 +1,56 @@
+@import '../../veriables.scss';
+
+.title {
+  display: inline-block;
+  color: inherit;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.logo {
+  display: inline-block;
+  color: $red;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.work {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  background-color: $red;
+  margin-bottom: 40px;
+  color: $other-white;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.name {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: -15px;
+}
+
+.lg {
+  font-weight: 800;
+  font-size: 3rem;
+}
+.md {
+  font-weight: 700;
+  font-size: 2rem;
+}
+.sm {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    font-size: 1.75rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    font-size: 1.25rem;
+  }
+}
