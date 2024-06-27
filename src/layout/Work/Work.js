@@ -16,6 +16,7 @@ import animeCover from "../../images/otakuchan.jpg";
 import animeChart from "../../images/anichart.PNG";
 import anilistmp4 from "../../images/anilist.mp4";
 import anilistwebm from "../../images/anilist.webm";
+import webfluence from "../../images/printwebfluence.png";
 
 class Work extends Component {
   render() {
@@ -119,22 +120,36 @@ class Work extends Component {
           className="border"
           backColor="#293347"
           color="white"
-          pad="200px 0"
+          pad="80px 0"
         >
           <Grid>
             <Row center="xs">
-              <Col xs={12}>
-                <Title size="lg">Projects</Title>
+              <Col lg={12} xs={12}>
+                <Title size="lg">Webfluence Studios</Title>
+                <a
+                  target="_black"
+                  href="https://webfluencestudios.com/"
+                  rel="noopener noreferrer"
+                >
+                  <Image 
+                    sizeX="80%"
+                    mar="10px auto 40px auto"
+                    display="block"
+                    src={webfluence}
+                  />
+                </a>
+                <Paragraph>
+                Webfluence is a reliable partner in custom software development solutions. Specializing in cutting-edge technologies such as React, Angular, Java, and Spring Boot, the company offers comprehensive frontend and backend development services to turn ideas into reality. Committed to delivering high-quality, efficient, and scalable products, Webfluence perfectly meets the business needs of its clients. With a customer-centric approach and a focus on innovation, the team is ready to take any project to the next level.
+                </Paragraph>
+                <br/>
+                <br/>
+                <br/>
+                <Button path="https://webfluencestudios.com/" type="work">
+                  Contact Us On Web
+                </Button>
                 <Row center="xs">
                   <Col lg={4} xs={12}>
-                    <Pane
-                      target="_blank"
-                      href="https://stupefied-kepler-3384a4.netlify.com"
-                      color="light"
-                      type="css"
-                      desc="This visually appealing website showcases advanced css designs"
-                      style={{ marginTop: "30px" }}
-                    />
+                    
                   </Col>
                 </Row>
               </Col>

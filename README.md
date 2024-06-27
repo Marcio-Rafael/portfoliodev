@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1- Install Node.js
 
-2- `git clone https://github.com/Rrojaski/portfolio-0820`
+2- `git clone https://github.com/Marcio-Rafael/portfoliodev`
 
 3- `cd ai-loop-frontend`
 
@@ -31,7 +31,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Author
 
-* **Roman Rojas** - [RRojaski](https://github.com/rrojaski)
+* **Marcio Rafael** - [Marcio-Rafael](https://github.com/Marcio-Rafael)
 
 ## To Do
 

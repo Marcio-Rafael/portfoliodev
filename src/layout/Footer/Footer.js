@@ -65,9 +65,9 @@ class Footer extends Component {
                           textDecoration: "none",
                           display: "inline-block"
                         }}
-                        href="mailto:rrojaski@gmail.com"
+                        href="mailto:marcio.rafaelssousa2009@hotmail.com"
                       >
-                        <Paragraph>rrojaski@gmail.com</Paragraph>
+                        <Paragraph> marcio.rafaelssousa2009@hotmail.com</Paragraph>
                       </a>
                     </Row>
                     <Row center='xs' middle="xs">
@@ -83,7 +83,7 @@ class Footer extends Component {
                         }}
                         href="tel:9042715715"
                       >
-                        <Paragraph>904 - 271 - 5715</Paragraph>
+                        <Paragraph>(+55) 11 94101-9015</Paragraph>
                       </a>
                     </Row>
                   </Col>
@@ -103,7 +103,7 @@ class Footer extends Component {
                         <Row center="xs">
                           <Col lg={6} xs={11}>
                             <Paragraph size="lg">
-                              Living, learning, & leveling up one day at a time.
+                            Embracing challenges, growing stronger, and achieving greatness step by step.
                             </Paragraph>
                             <br />
                           </Col>
@@ -113,22 +113,22 @@ class Footer extends Component {
                         <Icon
                           name="linkedin"
                           type="shake"
-                          href="https://www.linkedin.com/in/roman-rojas"
+                          href="https://www.linkedin.com/in/marcio-rafael-786511159/"
                         />
                         <Icon
                           name="dribble"
                           type="jump"
-                          href="https://dribbble.com/romanrojas"
+                          href="https://dribbble.com/rockqueijo_"
                         />
                         <Icon
                           name="github"
                           type="spin"
-                          href="https://github.com/Rrojaski"
+                          href="https://github.com/Marcio-Rafael"
                         />
                       </Col>
                       <Col xs={12}>
                         <Paragraph>
-                          Made with love{" "}
+                        Made with dedication{" "}
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
@@ -136,7 +136,7 @@ class Footer extends Component {
                           >
                             <Image sizeX="1rem" src={heart} />
                           </a>{" "}
-                          by Roman Rojas
+                          by Marcio Rafael
                         </Paragraph>
                       </Col>
                     </Row>

@@ -46,7 +46,7 @@ class Home extends Component {
                 <Col md={12} xs={11}>
                   <Row center="xs">
                     <Col xs={12}>
-                      <Title size="lg">Software Engineer</Title>
+                      <Title size="lg">Software Developer </Title>
                       <br />
 
                       <Title size="sm">
@@ -77,10 +77,10 @@ class Home extends Component {
                 <Col md={12} xs={11}>
                   <Row center="xs">
                     <Col lg={8} xs={12}>
-                      <Title size="md">Hi, I’m Roman. Nice to meet you.</Title>
+                      <Title size="md">Hi, I’m Marcio. Nice to meet you.</Title>
                       <Paragraph>
-                        I'm an experienced Software Engineer based in the United
-                        States. I have worked with start-ups and large
+                        I'm an experienced Development based in the Sao Paulo,
+                        Brazil. I have worked with start-ups and large
                         organizations helping them write efficient code for
                         their websites and mobile apps using modern frameworks
                         and tools.
@@ -191,7 +191,7 @@ class Home extends Component {
                       <Paragraph>
                         Here are a few recent design projects. Want to see more?
                         <a
-                          href="mailto:rrojaski@gmail.com"
+                          href="mailto:marcio.rafaelssousa2009@hotmail.com"
                           rel="noopener noreferrer"
                         >
                           {" "}
@@ -222,7 +222,7 @@ class Home extends Component {
                       <Pane
                         target="_blank"
                         color="dark"
-                        href="https://stupefied-kepler-3384a4.netlify.com"
+                        href="https://webfluencestudios.com/"
                         type="css"
                         desc="This visually appealing website showcases advanced css designs"
                       />
@@ -271,7 +271,7 @@ class Home extends Component {
                               <br />
                               <br />
                               <Paragraph>
-                                “This guy really knows his stuff. I've had Roman
+                                “This guy really knows his stuff. I've had Marcio
                                 complete work for me and he's been able to
                                 provide quality work on time.”
                               </Paragraph>
@@ -296,14 +296,14 @@ class Home extends Component {
                               <br />
                               <br />
                               <Paragraph>
-                                “Roman was a real pleasure to work with and we
+                                “Marcio was a real pleasure to work with and we
                                 look forward to working with him again. He’s
                                 definitely the kind of Web Developer you can
                                 trust with a project from start to finish.”
                               </Paragraph>
                               <Title size="name">Claudio Rojas</Title>
                               <Paragraph size="sm">
-                                Web Developer, LaGuardia Community College
+                                Web Developer, Poatek
                               </Paragraph>
                             </Slide>
                           </Slider>

@@ -9,7 +9,7 @@ const Form = props => {
     <Fragment>
       <form
         method="POST"
-        action="https://formspree.io/rrojaski@gmail.com"
+        action="https://formspree.io/f/xnnaawbj"
         className={`${styles.form}`}
       >
         <div className={`${styles.name}`}>

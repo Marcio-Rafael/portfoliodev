@@ -10,7 +10,7 @@ import Menu from "../../components/Menu/Menu";
 import Paragraph from "../../components/Paragraph/Paragraph";
 
 // CV
-import agent_file from "../../Rojas_Roman_CV.pdf";
+import agent_file from "../../CV-Marcio.pdf";
 
 // images
 import close from "../../images/close.svg";
@@ -89,7 +89,7 @@ class Header extends Component {
                                         <Col xs={6}>
                                           <Button
                                             path={agent_file}
-                                            download="Rojas_Roman_CV"
+                                            download="CV-Marcio.pdf"
                                             target="_self"
                                             className="display"
                                             type="red"
@@ -128,7 +128,7 @@ class Header extends Component {
                               <div className={`${styles.mobileClose}`}>
                                 <Button
                                   path={agent_file}
-                                  download="Rojas_Roman_CV"
+                                  download="CV-Marcio.pdf"
                                   target="_self"
                                   className="display"
                                   type="red"
@@ -189,7 +189,7 @@ class Header extends Component {
                                     <Col xs={6}>
                                       <Button
                                         path={agent_file}
-                                        download="Rojas_Roman_CV"
+                                        download="CV-Marcio.pdf"
                                         target="_self"
                                         className="display"
                                         type="red"
@@ -212,7 +212,7 @@ class Header extends Component {
                               <div className={`${styles.mobileClose}`}>
                                 <Button
                                   path={agent_file}
-                                  download="Rojas_Roman_CV"
+                                  download="CV-Marcio.pdf"
                                   target="_self"
                                   className="display"
                                   type="red"
